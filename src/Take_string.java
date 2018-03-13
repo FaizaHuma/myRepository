@@ -3,6 +3,8 @@ public class Take_string {
     public static void main(String [] args)
     {
 
-        System.out.println("hello");
+        Scanner obj=new Scanner(System.in);
+        String str=obj.nextLine();
+        System.out.println(str);
     }
 }
